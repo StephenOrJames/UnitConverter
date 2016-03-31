@@ -19,7 +19,7 @@ public class Length extends AConverter {
 	}
 	
 	public static Length fromCentimeters(double value) {
-		return Length.fromMeters(value * 100);
+		return Length.fromMeters(value / 100);
 	}
 	
 	public static Length fromInches(double value) {
