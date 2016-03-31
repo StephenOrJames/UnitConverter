@@ -1,6 +1,6 @@
 package code.converter;
 
-public class Mass extends Converter {
+public class Mass extends AConverter {
 
 	public Mass(double value) {
 		super(value);

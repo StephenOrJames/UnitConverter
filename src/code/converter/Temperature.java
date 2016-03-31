@@ -1,6 +1,6 @@
 package code.converter;
 
-public class Temperature extends Converter {
+public class Temperature extends AConverter {
 
 	public Temperature(double value) {
 		super(value);

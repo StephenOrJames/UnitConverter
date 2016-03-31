@@ -1,10 +1,10 @@
 package code.converter;
 
-public abstract class Converter {
+public abstract class AConverter {
 
 	private double _value;
 	
-	public Converter(double value) {
+	public AConverter(double value) {
 		_value = value;
 	}
 	

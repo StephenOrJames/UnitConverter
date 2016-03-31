@@ -1,6 +1,6 @@
 package code.converter;
 
-public class Length extends Converter {
+public class Length extends AConverter {
 
 	public Length(double value) {
 		super(value);
